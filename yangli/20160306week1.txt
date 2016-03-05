@@ -1,0 +1,6 @@
+2016年上，第一周
+
+1. 目前基于cnn的人脸识别的两类常用方法
+即特征提取或triplet/siamese 方法。
+
+2. 最近一周采用svm，joint bayesian, triplet在人脸识别中的实验。

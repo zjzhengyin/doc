@@ -1,0 +1,15 @@
+2016年春, 第一次分享
+
+1. VJ人脸检测算法详解（经典算法）
+文章 Robust Real-Time Face Detection
+PAUL VIOLA， International Journal of Computer Vision 57(2), 137–154, 2004
+
+2. 最新人脸检测文章
+IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE 待发表
+A Fast and Accurate Unconstrained Face Detector
+Shengcai Liao, Member, IEEE, Anil K. Jain, Fellow, IEEE, and Stan Z. Li, Fellow, IEEE
+仍然基于VJ框架，主要思想有两个：
+提出NPD特征，从20x20的图像提取79800维特征，
+提出deep quadratic tree 取代基于harr的决策树树桩。
+
+
