@@ -1,0 +1,3 @@
+mnist/*
+my_mnist_model-18637959467.params
+predict.npy
