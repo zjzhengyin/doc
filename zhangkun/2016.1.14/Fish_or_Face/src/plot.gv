@@ -1,0 +1,199 @@
+digraph plot {
+	convolution0 [label="Convolution
+3x3/1, 96" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm0 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution1 [label="Convolution
+1x1/1, 32" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm1 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution2 [label="Convolution
+3x3/1, 32" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm2 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	concat0 [label=Concat fillcolor="#fdb462" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution3 [label="Convolution
+1x1/1, 32" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm3 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation3 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution4 [label="Convolution
+3x3/1, 48" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm4 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation4 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	concat1 [label=Concat fillcolor="#fdb462" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution5 [label="Convolution
+3x3/2, 80" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm5 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation5 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	pooling0 [label="Pooling
+max, 3x3/2" fillcolor="#80b1d3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	concat2 [label=Concat fillcolor="#fdb462" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution6 [label="Convolution
+1x1/1, 112" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm6 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation6 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution7 [label="Convolution
+3x3/1, 48" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm7 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation7 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	concat3 [label=Concat fillcolor="#fdb462" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution8 [label="Convolution
+1x1/1, 96" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm8 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation8 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution9 [label="Convolution
+3x3/1, 64" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm9 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation9 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	concat4 [label=Concat fillcolor="#fdb462" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution10 [label="Convolution
+1x1/1, 80" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm10 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation10 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution11 [label="Convolution
+3x3/1, 80" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm11 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation11 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	concat5 [label=Concat fillcolor="#fdb462" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution12 [label="Convolution
+1x1/1, 48" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm12 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation12 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution13 [label="Convolution
+3x3/1, 96" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm13 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation13 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	concat6 [label=Concat fillcolor="#fdb462" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution14 [label="Convolution
+3x3/2, 96" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm14 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation14 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	pooling1 [label="Pooling
+max, 3x3/2" fillcolor="#80b1d3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	concat7 [label=Concat fillcolor="#fdb462" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution15 [label="Convolution
+1x1/1, 176" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm15 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation15 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution16 [label="Convolution
+3x3/1, 160" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm16 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation16 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	concat8 [label=Concat fillcolor="#fdb462" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution17 [label="Convolution
+1x1/1, 176" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm17 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation17 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	convolution18 [label="Convolution
+3x3/1, 160" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	batchnorm18 [label=BatchNorm fillcolor="#bebada" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	activation18 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	concat9 [label=Concat fillcolor="#fdb462" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	global_pool [label="Pooling
+avg, 7x7/1" fillcolor="#80b1d3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	flatten1 [label=Flatten fillcolor="#fdb462" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	fc1 [label="FullyConnected
+2" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	softmax [label=SoftmaxOutput fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+		batchnorm0 -> convolution0 [arrowtail=open dir=back]
+		activation0 -> batchnorm0 [arrowtail=open dir=back]
+		convolution1 -> activation0 [arrowtail=open dir=back]
+		batchnorm1 -> convolution1 [arrowtail=open dir=back]
+		activation1 -> batchnorm1 [arrowtail=open dir=back]
+		convolution2 -> activation0 [arrowtail=open dir=back]
+		batchnorm2 -> convolution2 [arrowtail=open dir=back]
+		activation2 -> batchnorm2 [arrowtail=open dir=back]
+		concat0 -> activation1 [arrowtail=open dir=back]
+		concat0 -> activation2 [arrowtail=open dir=back]
+		convolution3 -> concat0 [arrowtail=open dir=back]
+		batchnorm3 -> convolution3 [arrowtail=open dir=back]
+		activation3 -> batchnorm3 [arrowtail=open dir=back]
+		convolution4 -> concat0 [arrowtail=open dir=back]
+		batchnorm4 -> convolution4 [arrowtail=open dir=back]
+		activation4 -> batchnorm4 [arrowtail=open dir=back]
+		concat1 -> activation3 [arrowtail=open dir=back]
+		concat1 -> activation4 [arrowtail=open dir=back]
+		convolution5 -> concat1 [arrowtail=open dir=back]
+		batchnorm5 -> convolution5 [arrowtail=open dir=back]
+		activation5 -> batchnorm5 [arrowtail=open dir=back]
+		pooling0 -> concat1 [arrowtail=open dir=back]
+		concat2 -> activation5 [arrowtail=open dir=back]
+		concat2 -> pooling0 [arrowtail=open dir=back]
+		convolution6 -> concat2 [arrowtail=open dir=back]
+		batchnorm6 -> convolution6 [arrowtail=open dir=back]
+		activation6 -> batchnorm6 [arrowtail=open dir=back]
+		convolution7 -> concat2 [arrowtail=open dir=back]
+		batchnorm7 -> convolution7 [arrowtail=open dir=back]
+		activation7 -> batchnorm7 [arrowtail=open dir=back]
+		concat3 -> activation6 [arrowtail=open dir=back]
+		concat3 -> activation7 [arrowtail=open dir=back]
+		convolution8 -> concat3 [arrowtail=open dir=back]
+		batchnorm8 -> convolution8 [arrowtail=open dir=back]
+		activation8 -> batchnorm8 [arrowtail=open dir=back]
+		convolution9 -> concat3 [arrowtail=open dir=back]
+		batchnorm9 -> convolution9 [arrowtail=open dir=back]
+		activation9 -> batchnorm9 [arrowtail=open dir=back]
+		concat4 -> activation8 [arrowtail=open dir=back]
+		concat4 -> activation9 [arrowtail=open dir=back]
+		convolution10 -> concat4 [arrowtail=open dir=back]
+		batchnorm10 -> convolution10 [arrowtail=open dir=back]
+		activation10 -> batchnorm10 [arrowtail=open dir=back]
+		convolution11 -> concat4 [arrowtail=open dir=back]
+		batchnorm11 -> convolution11 [arrowtail=open dir=back]
+		activation11 -> batchnorm11 [arrowtail=open dir=back]
+		concat5 -> activation10 [arrowtail=open dir=back]
+		concat5 -> activation11 [arrowtail=open dir=back]
+		convolution12 -> concat5 [arrowtail=open dir=back]
+		batchnorm12 -> convolution12 [arrowtail=open dir=back]
+		activation12 -> batchnorm12 [arrowtail=open dir=back]
+		convolution13 -> concat5 [arrowtail=open dir=back]
+		batchnorm13 -> convolution13 [arrowtail=open dir=back]
+		activation13 -> batchnorm13 [arrowtail=open dir=back]
+		concat6 -> activation12 [arrowtail=open dir=back]
+		concat6 -> activation13 [arrowtail=open dir=back]
+		convolution14 -> concat6 [arrowtail=open dir=back]
+		batchnorm14 -> convolution14 [arrowtail=open dir=back]
+		activation14 -> batchnorm14 [arrowtail=open dir=back]
+		pooling1 -> concat6 [arrowtail=open dir=back]
+		concat7 -> activation14 [arrowtail=open dir=back]
+		concat7 -> pooling1 [arrowtail=open dir=back]
+		convolution15 -> concat7 [arrowtail=open dir=back]
+		batchnorm15 -> convolution15 [arrowtail=open dir=back]
+		activation15 -> batchnorm15 [arrowtail=open dir=back]
+		convolution16 -> concat7 [arrowtail=open dir=back]
+		batchnorm16 -> convolution16 [arrowtail=open dir=back]
+		activation16 -> batchnorm16 [arrowtail=open dir=back]
+		concat8 -> activation15 [arrowtail=open dir=back]
+		concat8 -> activation16 [arrowtail=open dir=back]
+		convolution17 -> concat8 [arrowtail=open dir=back]
+		batchnorm17 -> convolution17 [arrowtail=open dir=back]
+		activation17 -> batchnorm17 [arrowtail=open dir=back]
+		convolution18 -> concat8 [arrowtail=open dir=back]
+		batchnorm18 -> convolution18 [arrowtail=open dir=back]
+		activation18 -> batchnorm18 [arrowtail=open dir=back]
+		concat9 -> activation17 [arrowtail=open dir=back]
+		concat9 -> activation18 [arrowtail=open dir=back]
+		global_pool -> concat9 [arrowtail=open dir=back]
+		flatten1 -> global_pool [arrowtail=open dir=back]
+		fc1 -> flatten1 [arrowtail=open dir=back]
+		softmax -> fc1 [arrowtail=open dir=back]
+}
