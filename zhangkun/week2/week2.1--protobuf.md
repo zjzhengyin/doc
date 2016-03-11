@@ -34,7 +34,7 @@ int main(){
       cout<<"succeed!"<<endl;
       return 0;
 }
-		```
+```
 4. 编译
 ```c++
 g++ -std=c++11 test.cpp student.pb.cc `pkg-config --cflags --libs protobuf` -o <binary>
