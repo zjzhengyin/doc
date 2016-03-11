@@ -3,7 +3,6 @@
 protobuf在caffe中有很重要的运用，所以简单了解一下还是有点用处的，我对protobuf的认识现在只停留在最初级的阶段，感觉就是一个生成类的工具，提供了统一的接口，下面是一个简单的例子。	
 
 ---
-
 1. student.proto 
 ```proto
 package test;
