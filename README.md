@@ -1,5 +1,4 @@
-## 中国计量学院micv实验室
-# 说明
-以姓名全拼为子目录，下面存放分享的内容，包括论文、ppt、链接等。
-建议每个子目录下放一个readme.md文件，对内容进行说明。
-大于3M的文件，请附上链接，不要直接上传文件。
+# Machine Intelligence and Computer Vision lab, China Jiliang University 
+## Note:
+please put your paper, ppt, resource link, etc in your personal directory.
+update the readme.md in your directory.
