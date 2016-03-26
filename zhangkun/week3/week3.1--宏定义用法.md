@@ -14,7 +14,7 @@ int main()
 	int  mult = mult(1,0);
 	cout<<mult<<endl;
     auto temp = str(zhangkun);
-    cout<<str(zhangkun)<<endl;
+    cout<<temp<<endl;
 	int  ten  = add(1,0);
 	cout<<ten<<endl;
 
