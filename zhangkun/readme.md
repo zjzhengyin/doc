@@ -8,3 +8,12 @@
 March 5, 2016 10:40 PM
 
 - ` 已过期`字样指其描述内容与源代码已不符；
+
+---
+我花了些时间在github上建了一个自己的[博客](http://zhaixingzhaiyue.github.io),主要用于每周的分享，打算更新到毕业。以后我会在这里列出该周所分享的内容及连接。而`doc/zhangkun`目录下存放所涉及到的资料，如果该周没有其它的资料需要存放，我也要建个空文件夹，因为这样显得**和谐**。。。。。。
+02/04/2016 
+---
+- week5
+    1. [测试某一段程序运行时间的方法](http://zhaixingzhaiyue.github.io/post/2016/03/31/clock.html)
+    2. [实验数据分享](http://zhaixingzhaiyue.github.io/post/2016/04/02/siamese.html)
+
