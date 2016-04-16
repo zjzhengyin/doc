@@ -13,4 +13,9 @@
 - week5
     1. [测试某一段程序运行时间的方法](http://zhaixingzhaiyue.github.io/post/2016/03/31/clock.html)
     2. [实验数据分享](http://zhaixingzhaiyue.github.io/post/2016/04/02/siamese.html)
+- week6
+    1. <<Face Recognition Using Deep Multi-Pose Representations>>(`week6/`)
+- week7
+    1. [Caffe下学习速率调整策略](http://blog.csdn.net/zhaixingzhaiyue/article/details/51141241)
+    2. <<TRIPLET SIMILARITY EMBEDDING FOR FACE VERIFICATION>>
 
