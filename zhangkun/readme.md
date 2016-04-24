@@ -18,4 +18,7 @@
 - week7
     1. [Caffe下学习速率调整策略](http://blog.csdn.net/zhaixingzhaiyue/article/details/51141241)
     2. "TRIPLET SIMILARITY EMBEDDING FOR FACE VERIFICATION"
+- week8
+    1. [交叉验证](http://blog.csdn.net/u012333003/article/details/36206171?utm_source=tuicool&utm_medium=referral)
+    2. [PCA数学原理](http://blog.codinglabs.org/articles/pca-tutorial.html)
 
