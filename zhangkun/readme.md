@@ -21,4 +21,6 @@
 - week8
     1. [交叉验证](http://blog.csdn.net/u012333003/article/details/36206171?utm_source=tuicool&utm_medium=referral)
     2. [PCA数学原理](http://blog.codinglabs.org/articles/pca-tutorial.html)
+- week9
+    1. 提取特征写到二进制文件(见week9)，用法见程序提示。
 
