@@ -23,4 +23,8 @@
     2. [PCA数学原理](http://blog.codinglabs.org/articles/pca-tutorial.html)
 - week9
     1. 提取特征写到二进制文件(见week9)，用法见程序提示。
+- week10
+    1. [ROC和AUC介绍以及如何计算AUC](http://alexkong.net/2013/06/introduction-to-auc-and-roc/)
+- week11
+    1. 我改的一份人脸对齐程序，见week11
 
