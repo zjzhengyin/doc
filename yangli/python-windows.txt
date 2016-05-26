@@ -1,4 +1,4 @@
-在windows下用python，有以下几个选择
+在windows下用python，有以下几个选择，我最推荐方法3。
 
 1. anaconda，
 下载安装，在spyder或ipython notebook里使用。
@@ -7,7 +7,7 @@ anaconda现在安装容易出错。spyder好用，但调试不太方便。
 2. 直接装pycharm，打开，菜单file, settings, Project, project interpreter, 可以添加安装需要的库。
 pycharm调试方便。
 
-2. 在viusal studio 里使用python
+3. 在viusal studio 里使用python 
 下载地址 https://github.com/Microsoft/PTVS
 网站上有以下几个东西
 Python Tools for VS 2015
