@@ -1,4 +1,5 @@
-在windows下用python，有以下几个选择，推荐方法2和3，其中2是Windows和Linux统一的方法，最推荐。
+python在linux下使用最友好，如果要在windows下用python，有以下几个选择，推荐方法2和3，
+其中2 pycharm实际使用中最稳定方便，而且Windows和Linux统一，最推荐。
 
 ## 1. anaconda
 下载安装，在spyder或ipython notebook里使用。
@@ -6,7 +7,8 @@ anaconda现在安装容易出错。spyder好用，但调试不太方便。
 
 ## 2. pycharm
 
-直接装pycharm，打开，菜单file, settings, Project, project interpreter, 可以添加安装需要的库。
+直接装pycharm，打开，新建一个项目，选择你下载的代码的根目录，即可利用已有的源代码创建一个工程。
+菜单file, settings, Project, project interpreter, 可以添加安装需要的库。
 pycharm调试方便。
 
 ## 3. 在viusal studio 里使用python 
